@@ -30,7 +30,7 @@ La recomendación más práctica y más segura es entonces que la ventilación s
 No se si todo, pero casi todo lo que uno querría saber y no se atreve a preguntar sobre la transmisión de covid19 por aerosoles, lo puede encontrar en éstas extensas [FAQ](https://docs.google.com/document/d/1fB5pysccOHvxphpTmCG_TGdytavMmc1cUumn8m0pwzo/edit#), con numerosos enlaces a las publicaciones relevantes.
 
 ### Argentina
-Para reducir los riesgos de contagio en interiores, que es donde suelen ocurrir la mayoría de los contagios incluídos los peligrosos eventos de superpropagación de la enfermedad, es muy importante que aprendamos a ventilar, y que compartamos rápida y abiertamente los conocimientos y la experiencia. Para más información, particularmente referida a Argentina, recomendamos visitar la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar).
+Para reducir los riesgos de contagio en interiores, que es donde suelen ocurrir la mayoría de los contagios incluídos los peligrosos eventos de superpropagación de la enfermedad, es muy importante que aprendamos a ventilar, y que compartamos rápida y abiertamente los conocimientos y la experiencia, y que generemos más conciencia. Para más información, particularmente referida a Argentina, recomendamos visitar la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar).
 
 
 ___
