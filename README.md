@@ -48,7 +48,7 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
 
 ## Lista de Componentes
 1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf). 
-2. Placa Arduino UNO.
+2. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno).
 3. Salidas:
  1. Pantalla: LCD 16x2.
  2. Audio: Buzzer pasivo.
