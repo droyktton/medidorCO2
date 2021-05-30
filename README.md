@@ -56,6 +56,8 @@ En algunos casos se ha usado ventiladores para forzar la salida de aire y mejora
 Si fuera necesario recalibrar, esto se puede lograr apretando el pulsador hasta escuchar un sonido. Desde ese momento y por unos dos minutos el medidor deberá permanecer en el exterior lejos de fuentes de CO2. La pantalla mostrará una cuenta regresiva hasta que el medidor esté listo. Cuando esta listo el medidor se puede llevar al interior. No es necesario mantener prendido el medidor todo el tiempo, ya que la última calibración se guarda en memoria no volátil.
 Si por accidente se apretara el botón, será necesario presionarlo de nuevo para reiniciar prolijamente el proceso de recalibración recién descripto.
 
+*Contraindicaciones: el uso prolongado del medidor puede provocar una obsesión curiosa por medir la calidad del aire en todos lados.* 
+
 ## Lista de Componentes 
 1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno) x **1**.
 2. Entradas: 
