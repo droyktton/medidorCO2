@@ -70,7 +70,7 @@ Si por accidente se apretara el botón, será necesario presionarlo de nuevo par
    2. Alternativamente, se puede usar el puerto USB o la entrada de 9V del Arduino UNO, enchufados a una fuente de alimentación.
 8. Gabinete: Cajas de Luz adaptadas.
 9. Otros accesorios: 
-   1. Protoboard adhesiva de 170 Puntos.
+   1. [Mini Protoboard adhesiva de 170 Puntos](https://articulo.mercadolibre.com.ar/MLA-732244755-mini-protoboard-170-puntos-electronica-experimental-arduino-_JM?matt_tool=88481412&matt_word=&matt_source=google&matt_campaign_id=11618987428&matt_ad_group_id=113657532672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479785004862&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=151751194&matt_product_id=MLA732244755&matt_product_partition_id=353037831509&matt_target_id=aud-416637721346:pla-353037831509&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx3r4aBWp5LLAuv8au6MtcoLOjKKyF1T4pTUQ9VDEvXlwKXRzFdaztoaAka4EALw_wcB).
    2. Cablecitos macho-macho, hembra-macho. Pack 40 Cables Dupont Macho Hembra 20cm. 
    3. Peines Tira Pines Macho 1x40 Paso 2.54mm Largo 11mm Pack X 10. 
    4. Resistencia 10K x .
