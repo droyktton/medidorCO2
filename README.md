@@ -1,6 +1,6 @@
 # Medidor de CO2  
 
-Este repositorio público documenta los detalles técnicos de un medidor de concentración de CO2 en el aire usando un sensor específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. 
+Este repositorio público documenta los detalles técnicos de un medidor económico no comercial de concentración de CO2 en el aire usando un sensor específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. 
 
 ___
 
@@ -21,6 +21,10 @@ Aunque existen [modelos teóricos](https://www.edx.org/es/course/physics-of-covi
 La recomendación general es mantener una ventilación cruzada, continua, y distribuída. Sin embargo cada interior tiene sus características, sus aberturas, su volumen, sus conexiones con otros espacios, un exterior de ciertas características, y un número de ocupantes realizando determinadas actividades. Esta entonces claro que la ventilación que funciona en un lugar puede no ser adecuada en otro lugar. En particular, si la temperatura exterior es muy baja por ejemplo, no podremos aplicar una ventilación natural exagerada. Por todo esto es que la ventilación tiene que ser también medida. Medir en el lugar y momento concretos nos permite responder a las preguntas: ¿Esta en este momento bien ventilando mi ambiente?, ¿Qué puedo hacer para mejorar la ventilación de mi sala?. La medición de CO2 nos permite experimentar distintas condiciones de ventilación hasta encontrar la adecuada, sin necesidad de complicados modelos matemáticos que dependen de todas las características del interior arriba mencionadas.
 
 La recomendación más práctica y más segura es entonces que la ventilación sea continua, cruzada, distribuída y medida *CCDM*. Es en este último punto que los medidores de CO2 son herramientas importantes (de hecho, la experimentación con estos medidores en estos interiores es la que nos lleva a concluir que la ventilación debe ser continua, cruzada y distribuída).
+
+### Argentina
+
+Para reducir los riesgos de contagio en interiores, que es donde suelen ocurrir la mayoría de los contagios incluídos los peligrosos eventos de superpropagación de la enfermedad, es muy importante que aprendamos a ventilar, y que compartamos rápida y abiertamente los conocimientos y la experiencia. Para más información, particularmente referida a Argentina, recomendamos visitar la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar).
 
 ___
 
