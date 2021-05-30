@@ -69,4 +69,16 @@ ___
 + Al Instituto Balseiro por apoyar la iniciativa. 
 
 
+# Proyectos Parecidos
+
++ [El mas parecido al presente](https://www.instructables.com/CO2-Sensor-for-Schools/) 
++ [El de Jorge Aliaga, con otro sensor](https://github.com/jlaliaga/Medidor-de-CO2)
++ (https://github.com/danielbernalb/LibreCO2/blob/main/INSTRUCCIONES%20en%20Espa%C3%B1ol.md)
++ (https://github.com/Sensirion/arduino-ble-gadget/blob/master/documents/SCD30_Monitor_Tutorial.md)
++ https://github.com/anaireorg/anaire-devices
++ https://fablab.ruc.dk/co2/
++ https://github.com/Alitux/solarco2
++ 
+
+
 
