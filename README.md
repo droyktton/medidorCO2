@@ -47,8 +47,8 @@ ___
 El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros posibles usos, como monitoreo externo o remoto. Usando un pulsador podemos iniciar una rutina de calibración forzada, opcional, que se realiza esperando unos minutos en el exterior con el medidor encendido. El medidor se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado, o una batería. Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación traseros que permiten que el aire circule libremente a través del sensor. También es importante asegurarse de que no hayan fuentes de CO2 que no provengan de la respiración.
 
 ## Lista de Componentes
-1. Sensor especifico para CO2:
-2. Placa Arduino:
+1. Sensor de CO2, humedad y temperatura [Sensirion SCD30SensorModule](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf). 
+2. Placa Arduino UNO.
 3. Salidas:
  1. Pantalla: LCD 16x2.
  2. Audio: Buzzer pasivo.
@@ -65,7 +65,9 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
 
 ## Software
 
-Para interactuar con el sensor NDIR usamos la [SparkFun_SCD30_Arduino_Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).
+Para programar la placa Arduino usamos el [open-source Arduino Software (IDE)](https://www.arduino.cc/en/software) en Ubuntu 20.04 linux.
+Para interactuar con el sensor NDIR usamos la biblioteca [SparkFun_SCD30_Arduino_Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).
+Para interactuar con la pantalla LCD I2C usamos la biblioteca [liquid-crystal-i2-c](https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c). 
 
 ___
 
