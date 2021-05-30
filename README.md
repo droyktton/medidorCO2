@@ -92,6 +92,6 @@ ___
 + Al Instituto Balseiro por apoyar la iniciativa. 
 
 # Contacto 
-@droyktton
+@droyktton en twitter.
 
 
