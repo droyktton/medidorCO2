@@ -19,7 +19,7 @@ Aunque existen modelos, es muy dificil estimar una probabilidad de contagio cuan
 La recomendación general es mantener una ventilación cruzada, continua, y distribuída. Sin embargo cada interior tiene sus características, sus aberturas, su volumen, sus conexiones con otros espacios, un exterior de ciertas características, y un número de ocupantes realizando determinadas actividades. Esta entonces claro que la ventilación que funciona en un lugar puede no ser adecuada en otro lugar. En particular, si la temperatura exterior es muy baja por ejemplo, no podremos aplicar una ventilación natural exagerada. Por todo esto es que la ventilación tiene que ser también medida. Medir en el lugar y momento concretos nos permite responder a las preguntas: ¿Esta en este momento bien ventilando mi ambiente?, ¿Qué puedo hacer para mejorar la ventilación de mi sala?. La medición de CO2 nos permite experimentar distintas condiciones de ventilación hasta encontrar la adecuada, sin necesidad de complicados modelos matemáticos que dependen de todas las características del interior arriba mencionadas.
 
 # Medidor
-
+ 
 ## Funcionalidad
 El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros usos. Usando un pulsador podemos inicial una rutina de calibración forzada, que es opcional. Se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado o una batería. Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación que permiten que el aire circule a través del sensor.
 
