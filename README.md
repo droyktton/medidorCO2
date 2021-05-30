@@ -63,9 +63,9 @@ ___
 
 # Agradecimientos
 
-+ A Eduardo Jagla por la motivación y discusión.
 + A Pierre Arneodo por diseñar y armar los gabinetes.
-+ A Luciano Lamaite y Jorge Aliaga por los tips técnicos y comerciales.
++ A Eduardo Jagla por la motivación, la experimentación, y la discusión.
++ A Luciano Lamaite y Jorge Aliaga por los tips técnicos y prácticos.
 + Al Instituto Balseiro por apoyar la iniciativa. 
 
 
