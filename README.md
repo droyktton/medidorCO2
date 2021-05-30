@@ -61,7 +61,7 @@ En algunos casos se ha usado ventiladores para forzar la salida de aire y mejora
    2. [Pulsador](https://articulo.mercadolibre.com.ar/MLA-831826308-mini-pulsador-nc-na-metal-1a-250v-rojo-negro-_JM?searchVariation=48395399536#searchVariation=48395399536&position=10&search_layout=stack&type=item&tracking_id=953b5afb-9dc7-4574-b4a3-8c5bc287dfb3). 
 3. Salidas:
    1. Pantalla [LCD I2C 16x2](https://aprendiendoarduino.wordpress.com/2018/10/17/pantalla-lcd-i2c-en-arduino/).
-   2. Audio: Zumbador o [buzzer pasivo] (https://articulo.mercadolibre.com.ar/MLA-855477829-buzzer-pasivo-zumbador-tonos-raspi-arduino-pack-x-10-_JM).
+   2. Audio: Zumbador o [buzzer pasivo](https://articulo.mercadolibre.com.ar/MLA-855477829-buzzer-pasivo-zumbador-tonos-raspi-arduino-pack-x-10-_JM).
    3. Puerto Serial USB del Arduino UNO.
 6. Alimentación: 
    1. Cargador Portátil [Gadnic BC-26 10000 mAh de Carga Rápida USB con Indicador de Batería](https://www.gadnic.com.ar/cargadores-portatiles/mini-power-bank-gadnic-10000mah-celular-portable-carga-rapida?source=shopping&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hNEWgSMh8Dhvq2dokc-VR9O0HjDaYrEMnrP-C9cRBaNrsn3jscANYYaAntUEALw_wcB).
