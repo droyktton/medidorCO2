@@ -75,6 +75,8 @@ Si por accidente se apretara el botón, será necesario presionarlo de nuevo par
    3. Peines Tira Pines Macho 1x40 Paso 2.54mm Largo 11mm Pack X 10. 
    4. Resistencia 10K x .
 
+Los links son solo referencias, no recomendaciones de compra.
+
 ## Circuito
 
 ## Software
