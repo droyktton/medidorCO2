@@ -49,12 +49,12 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
 ## Uso
 Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación traseros que permiten que el aire circule libremente a través del sensor. En el caso que alguien respire muy cerca del medidor, será necesario esperar por lo menos un minuto para que la medida se reestabilice. También es importante asegurarse de que no hayan fuentes de CO2 que no provengan de la respiración de los ocupantes, caso contrario las advertencias en la pantalla no serán válidas. 
 
-
-El procedimiento que recomendamos es empezar, si es posible, con una configuración que tenga en lo posible una ventilación natural continua, cruzada y distribuída. Si el medidor indica que hay que ventilar, será necesario abrir un poco mas puertas y/o ventanas hasta que la concentración de CO2 baje nuevamente a valores de riesgo bajo. No es necesario exagerar, a veces unos pocos centímetros más de apertura hacen una gran diferencia (¡experimentar!).  
-Es necesario esperar unos minutos después de cada cambio. Recordar que el grado de ventilación dependerá del número de personas, de sus actividades, del volumen del espacio interior y posiblemente también de las diferencias de presión y temperatura entre exterior e interior. Para estar seguro en estas condiciones cambiantes es recomendable medir frecuentemente.
-
+El procedimiento que recomendamos es empezar en lo posible con una configuración que tenga en lo posible una ventilación natural continua, cruzada y distribuída. Si el medidor indica que hay que ventilar, será necesario abrir un poco mas puertas y/o ventanas hasta que la concentración de CO2 baje nuevamente a valores de riesgo bajo. Sorprendentemente no es necesario exagerar: ¡a veces unos pocos centímetros más de apertura hacen una gran diferencia!. Y es necesario esperar unos minutos después de cada cambio. Recordar que el grado de ventilación dependerá del número de personas, de sus actividades, del volumen del espacio interior y posiblemente también de las diferencias de presión y temperatura entre exterior e interior. Para estar seguro en estas condiciones cambiantes es recomendable medir frecuentemente.
 
 En algunos casos se ha usado ventiladores para forzar la salida de aire y mejorar el intercambio con el exterior. En algunos edificios existen por otro lado ductos de ventilación forzada. En cualquier caso recomendamos medir CO2 para asegurarse de que la capacidad instalada esté funcionando correctamente. Cualquier otra propuesta creativa podrá ser seleccionada por el medidor. 
+
+Si fuera necesario recalibrar, esto se puede lograr apretando el pulsador hasta escuchar un sonido. Desde ese momento y por unos dos minutos el medidor deberá permanecer en el exterior lejos de fuentes de CO2. La pantalla mostrará una cuenta regresiva hasta que el medidor esté listo. Cuando esta listo el medidor se puede llevar al interior. No es necesario mantener prendido el medidor todo el tiempo, ya que la última calibración se guarda en memoria no volátil.
+Si por accidente se apretara el botón, será necesario presionarlo de nuevo para reiniciar prolijamente el proceso de recalibración recién descripto.
 
 ## Lista de Componentes 
 1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno).
