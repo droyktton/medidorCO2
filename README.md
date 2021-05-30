@@ -65,6 +65,8 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
 
 ## Software
 
+Para interactuar con el sensor NDIR usamos la [SparkFun_SCD30_Arduino_Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).
+
 ___
 
 # Proyectos Parecidos
