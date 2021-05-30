@@ -33,7 +33,7 @@ La recomendación general es mantener una ventilación cruzada, continua, y dist
 La recomendación más práctica y más segura es entonces que la ventilación sea [continua, cruzada, distribuída y medida](https://www.argentina.gob.ar/sites/default/files/covid-19-prevencion-de-transmision-por-aerosoles-2021_0.pdf). Es en este último punto que los medidores de CO2 son herramientas importantes (de hecho, la experimentación con estos medidores en estos interiores es la que nos lleva a concluir que la ventilación debe ser continua, cruzada y distribuída).
 
 ### Preguntas frecuentes
-No se si todo, pero casi todo lo que uno querría saber y no se atreve a preguntar sobre la transmisión de covid19 por aerosoles, lo puede encontrar en estas extensas [FAQ](https://docs.google.com/document/d/1fB5pysccOHvxphpTmCG_TGdytavMmc1cUumn8m0pwzo/edit#), y encontrar numerosos enlaces a las publicaciones más relevantes.
+No se si todo, pero casi todo lo que uno querría saber y no se atreve a preguntar sobre la transmisión de covid19 por aerosoles, lo puede encontrar en estas extensas y actualizadas [FAQ](https://docs.google.com/document/d/1fB5pysccOHvxphpTmCG_TGdytavMmc1cUumn8m0pwzo/edit#), y encontrar numerosos enlaces a las publicaciones más relevantes.
 
 ### Argentina
 Para reducir los riesgos de contagio en interiores, que es donde suelen ocurrir la mayoría de los contagios incluídos los peligrosos eventos de superpropagación de la enfermedad, es muy importante que aprendamos a ventilar, y que compartamos rápida y abiertamente los conocimientos y la experiencia, y que generemos más conciencia. Para más información, particularmente referida a Argentina, recomendamos visitar la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar).
