@@ -57,25 +57,25 @@ Si fuera necesario recalibrar, esto se puede lograr apretando el pulsador hasta 
 Si por accidente se apretara el botón, será necesario presionarlo de nuevo para reiniciar prolijamente el proceso de recalibración recién descripto.
 
 ## Lista de Componentes 
-1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno).
+1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno) x **1**.
 2. Entradas: 
-   1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf).
-   2. [Pulsador](https://articulo.mercadolibre.com.ar/MLA-831826308-mini-pulsador-nc-na-metal-1a-250v-rojo-negro-_JM?searchVariation=48395399536#searchVariation=48395399536&position=10&search_layout=stack&type=item&tracking_id=953b5afb-9dc7-4574-b4a3-8c5bc287dfb3). 
+   1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf)  x **1**.
+   2. [Pulsador](https://articulo.mercadolibre.com.ar/MLA-831826308-mini-pulsador-nc-na-metal-1a-250v-rojo-negro-_JM?searchVariation=48395399536#searchVariation=48395399536&position=10&search_layout=stack&type=item&tracking_id=953b5afb-9dc7-4574-b4a3-8c5bc287dfb3)  x **1**. 
 3. Salidas:
-   1. Pantalla [LCD I2C 16x2](https://aprendiendoarduino.wordpress.com/2018/10/17/pantalla-lcd-i2c-en-arduino/).
-   2. Audio: Zumbador o [buzzer pasivo](https://articulo.mercadolibre.com.ar/MLA-855477829-buzzer-pasivo-zumbador-tonos-raspi-arduino-pack-x-10-_JM).
+   1. Pantalla [LCD I2C 16x2](https://aprendiendoarduino.wordpress.com/2018/10/17/pantalla-lcd-i2c-en-arduino/)  x **1**.
+   2. Audio: Zumbador o [buzzer pasivo](https://articulo.mercadolibre.com.ar/MLA-855477829-buzzer-pasivo-zumbador-tonos-raspi-arduino-pack-x-10-_JM)  x **1**.
    3. Puerto Serial USB del Arduino UNO.
 6. Alimentación: 
-   1. Cargador Portátil [Gadnic BC-26 10000 mAh de Carga Rápida USB con Indicador de Batería](https://www.gadnic.com.ar/cargadores-portatiles/mini-power-bank-gadnic-10000mah-celular-portable-carga-rapida?source=shopping&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hNEWgSMh8Dhvq2dokc-VR9O0HjDaYrEMnrP-C9cRBaNrsn3jscANYYaAntUEALw_wcB).
+   1. Cargador Portátil [Gadnic BC-26 10000 mAh de Carga Rápida USB con Indicador de Batería](https://www.gadnic.com.ar/cargadores-portatiles/mini-power-bank-gadnic-10000mah-celular-portable-carga-rapida?source=shopping&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hNEWgSMh8Dhvq2dokc-VR9O0HjDaYrEMnrP-C9cRBaNrsn3jscANYYaAntUEALw_wcB)  x **1**.
    2. Alternativamente, se puede usar el puerto USB o la entrada de 9V del Arduino UNO, enchufados a una fuente de alimentación.
-8. Gabinete: Cajas de Luz adaptadas.
+8. Gabinete: Cajas de Luz adaptadas  x **1**.
 9. Otros accesorios: 
-   1. [Mini Protoboard adhesiva de 170 Puntos](https://articulo.mercadolibre.com.ar/MLA-732244755-mini-protoboard-170-puntos-electronica-experimental-arduino-_JM?matt_tool=88481412&matt_word=&matt_source=google&matt_campaign_id=11618987428&matt_ad_group_id=113657532672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479785004862&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=151751194&matt_product_id=MLA732244755&matt_product_partition_id=353037831509&matt_target_id=aud-416637721346:pla-353037831509&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx3r4aBWp5LLAuv8au6MtcoLOjKKyF1T4pTUQ9VDEvXlwKXRzFdaztoaAka4EALw_wcB).
-   2. Cablecitos macho-macho, hembra-macho. Pack 40 Cables Dupont Macho Hembra 20cm. 
+   1. [Mini Protoboard adhesiva de 170 Puntos](https://articulo.mercadolibre.com.ar/MLA-732244755-mini-protoboard-170-puntos-electronica-experimental-arduino-_JM?matt_tool=88481412&matt_word=&matt_source=google&matt_campaign_id=11618987428&matt_ad_group_id=113657532672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479785004862&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=151751194&matt_product_id=MLA732244755&matt_product_partition_id=353037831509&matt_target_id=aud-416637721346:pla-353037831509&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx3r4aBWp5LLAuv8au6MtcoLOjKKyF1T4pTUQ9VDEvXlwKXRzFdaztoaAka4EALw_wcB)  x **1**.
+   2. Cablecitos macho-macho, hembra-macho. Pack 40 Cables Dupont Macho Hembra 20cm,  x **N**. 
    3. "Peines" [Tira Pines Macho 1x40 Paso 2.54mm Largo 11mm](https://articulo.mercadolibre.com.ar/MLA-856724875-tira-pines-macho-1x40-paso-254mm-largo-11mm-pack-x-10-_JM?matt_tool=88481412&matt_word=&matt_source=google&matt_campaign_id=11618987428&matt_ad_group_id=113657532672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479785004862&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=214357370&matt_product_id=MLA856724875&matt_product_partition_id=353037831509&matt_target_id=aud-416637721346:pla-353037831509&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx2fx4KlgKT8XJ12dwbPWXIHZH7ti3DfmetLhYyTJxpGava6vAcQRXwaAp1yEALw_wcB) 
    4. Resistencia 10 kOhm x **1**.
 
-Los links son solo referencias, no recomendaciones de compra.
+Los links son solo referencias a las componentes, no recomendaciones de compra.
 
 ## Circuito
 
