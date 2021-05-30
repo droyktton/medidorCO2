@@ -98,7 +98,7 @@ ___
 
 # Agradecimientos
 
-+ A Pierre Arneodo por diseñar y armar los gabinetes.
++ A Pierre Arneodo Larrochette por diseñar y armar los gabinetes.
 + A Eduardo Jagla por la motivación, la experimentación, y la discusión.
 + A Luciano Lamaite y Jorge Aliaga por los tips técnicos y prácticos.
 + Al Instituto Balseiro por apoyar la iniciativa. 
