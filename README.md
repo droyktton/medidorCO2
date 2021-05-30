@@ -43,10 +43,13 @@ ___
 
 # Medidor
  
-## Funcionalidad
+## Funcionalidad y uso
 El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros posibles usos, como monitoreo externo o remoto. Usando un pulsador podemos iniciar una rutina de calibración forzada, opcional, que se realiza esperando unos minutos en el exterior con el medidor encendido. El medidor se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado, o una batería. Con la batería propuesta el medidor, funcionando a pleno, tiene una autonomía de más de 24hs continuas de uso.
 
-Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación traseros que permiten que el aire circule libremente a través del sensor. También es importante asegurarse de que no hayan fuentes de CO2 que no provengan de la respiración.
+Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación traseros que permiten que el aire circule libremente a través del sensor. En el caso que alguien respire muy cerca del medidor, será necesario esperar por lo menos un minuto para que la medida se reestabilice. También es importante asegurarse de que no hayan fuentes de CO2 que no provengan de la respiración de los ocupantes, caso contrario las advertencias en la pantalla no serán válidas. 
+
+El procedimiento que recomendamos es empezar, si es posible, con una configuración que tenga en lo posible una ventilación natural continua, cruzada y distribuída. Si el medidor indica que hay que ventilar, será necesario abrir un poco mas puertas y/o ventanas hasta que la concentración de CO2 baje nuevamente a valores de riesgo bajo. Es necesario esperar unos minutos después de cada cambio. En algunos casos se ha usado ventiladores para forzar la salida de aire y mejorar el intercambio con el exterior. En algunos edificios existen por otro lado ductos de ventilación forzada. En cualquier caso recomendamos medir para asegurarse de que la capacidad instalada esté funcionando correctamente.   
+
 
 ## Lista de Componentes 
 1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno).
