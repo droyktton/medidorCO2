@@ -47,9 +47,11 @@ ___
 El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros posibles usos, como monitoreo externo o remoto. Usando un pulsador podemos iniciar una rutina de calibración forzada, opcional, que se realiza esperando unos minutos en el exterior con el medidor encendido. El medidor se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado, o una batería. Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación traseros que permiten que el aire circule libremente a través del sensor. También es importante asegurarse de que no hayan fuentes de CO2 que no provengan de la respiración.
 
 ## Lista de Componentes
-1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf). 
-2. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno).
-3. Salidas:
+1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno).
+2. Entradas: 
+   1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf). 
+4. Salidas:
+5. Salidas:
    1. Pantalla [LCD I2C 16x2](https://aprendiendoarduino.wordpress.com/2018/10/17/pantalla-lcd-i2c-en-arduino/).
    2. Audio: Buzzer pasivo.
    3. Puerto Serial.
