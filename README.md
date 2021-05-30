@@ -89,6 +89,7 @@ ___
 + A Luciano Lamaite y Jorge Aliaga por los tips técnicos y prácticos.
 + Al Instituto Balseiro por apoyar la iniciativa. 
 
-
+# Contacto 
+@droyktton
 
 
