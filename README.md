@@ -55,7 +55,7 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
    1. Pantalla [LCD I2C 16x2](https://aprendiendoarduino.wordpress.com/2018/10/17/pantalla-lcd-i2c-en-arduino/).
    2. Audio: Buzzer pasivo.
    3. Puerto Serial USB del Arduino UNO.
-6. Alimentación: Batería Gadnic 10000 mAh.
+6. Alimentación: [Cargador Portátil Gadnic BC-26 10000 mAh de Carga Rápida USB con Indicador Batería](https://www.gadnic.com.ar/cargadores-portatiles/mini-power-bank-gadnic-10000mah-celular-portable-carga-rapida?source=shopping&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hNEWgSMh8Dhvq2dokc-VR9O0HjDaYrEMnrP-C9cRBaNrsn3jscANYYaAntUEALw_wcB).
 7. Gabinete: Cajas de Luz adaptadas.
 8. Otros accesorios: 
    1. mini protoboard adhesiva. 
