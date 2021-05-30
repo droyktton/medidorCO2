@@ -68,6 +68,7 @@ ___
 
 ## Hechos fuera de Argentina
 + https://www.instructables.com/CO2-Sensor-for-Schools/ 
++ https://emariete.com/medidor-casero-co2/
 + (https://github.com/danielbernalb/LibreCO2/blob/main/INSTRUCCIONES%20en%20Espa%C3%B1ol.md)
 + (https://github.com/Sensirion/arduino-ble-gadget/blob/master/documents/SCD30_Monitor_Tutorial.md)
 + https://github.com/anaireorg/anaire-devices
