@@ -1,4 +1,4 @@
-# Medidor de CO2  
+# [Otro] Medidor de CO2  
 
 Este repositorio público documenta los detalles técnicos de un medidor económico *no comercial* de concentración de CO2 en el aire usando un sensor específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. Este proyecto puede ser realizado por no especialistas, idealmente por aficionados de cualquier nivel de la comunidad de Arduino. No requiere conocimientos profundos de electrónica, ni de programación, ni de matemática o física. Solamente hace falta saber googlear perseverantemente ante la duda, y poder realizar un par de soldaduras sencillas. Lo más dificil de este proyecto es comprar los sensores de CO2 ya que por ahora, en Argentina, hay que importarlos. 
 
