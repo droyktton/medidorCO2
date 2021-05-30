@@ -1,11 +1,11 @@
 # Medidor de CO2  
 
-Este repositorio público documenta los detalles técnicos de la construcción de un medidor económico *no comercial* de concentración de CO2 en el aire usando un sensor específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios comunes. Incluye los detalles del hardware, con sus componentes y circuitos asi como del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. Software adicional permite leer el puerto serial para un análisis más detallado de las series temporales, en forma local o remota. 
+Este repositorio público documenta los detalles técnicos de la construcción de un medidor económico *no comercial* de concentración de CO2 en el aire usando un sensor específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios comunes. Incluye los detalles del hardware, con sus componentes y circuitos asi como del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. Software adicional permite leer el puerto serial para un análisis más detallado de las series temporales, en forma local o remota, textual o gráfica. 
 
 Este proyecto puede ser perfectamente realizado por no especialistas, idealmente por aficionados de cualquier nivel de la gran comunidad de Arduino. No requiere conocimientos profundos de electrónica, ni de programación, ni de matemática, ni de física. Solo fue necesario realizar un par de soldaduras muy sencillas.
-La comunidad del software y hardware libre es tan grande y generosa que basta saber googlear perseverantemente ante cualquier duda. Lo más dificil de este proyecto es comprar los sensores de CO2 ya que por ahora, en Argentina, hay que importarlos. El proyecto consistió en el armado de 5 medidores idénticos para medir la calidad del aire en la ciudad de San Carlos de Bariloche. Las mediciones y experimentos serán recopilados en un blog.  
+La comunidad del software y hardware libre es tan grande y generosa que basta saber googlear perseverantemente ante cualquier duda. Lo más dificil de este proyecto es comprar los sensores de CO2 ya que, por ahora, en Argentina, hay que importarlos. El resto de los componentes pueden cnoseguirse en tiendas locales de Argentina. 
 
-Con este sencillo proyecto nos sumamos a la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar) desde San Carlos de Bariloche.
+El proyecto consistió en el armado de 5 medidores idénticos para medir la calidad del aire en la ciudad de San Carlos de Bariloche. Las mediciones y experimentos serán recopilados en un blog. Con este sencillo proyecto nos sumamos a la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar) desde San Carlos de Bariloche.
 
 ___
 
