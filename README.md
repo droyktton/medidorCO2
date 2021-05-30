@@ -1,6 +1,6 @@
 # Medidor de CO2 
 
-Este repositorio público documenta los detalles técnicos de un medidor de concentracion de CO2 en el aire usando un sensor NDIR, arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como buzzers, lcd, puerto serial. 
+Este repositorio público documenta los detalles técnicos de un medidor de concentracion de CO2 en el aire usando un sensor NDIR, una placa Arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. 
 
 ## Motivación
 El covid19 se contagia principalmente por vía aérea, a través de la exhalación de aerosoles por personas infectadas (típicamente asíntomáticas o presintomáticas!), y la consiguiente inhalación de estos aerosoles contaminados por personas susceptibles. Cuando inhalamos aerosoles, estos se puede adherir a nuestros tractos respiratorios. Existe luego una probabilidad finita de que el virus, aún activo, se libere del interior de la gotita y alcance los receptores que propician su multiplicación en el cuerpo.  
@@ -24,9 +24,9 @@ La recomendación general es mantener una ventilación cruzada, continua, y dist
 El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros usos. Usando un pulsador podemos inicial una rutina de calibración forzada, que es opcional. Se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado o una batería. Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación que permiten que el aire circule a través del sensor.
 
 ## Lista de Componentes
-Sensor especifico para CO2.
-Arduino.
-etc.
+1. Sensor especifico para CO2.
+2. Arduino.
+3. etc.
 
 ## Circuito
 
