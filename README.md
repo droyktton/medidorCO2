@@ -61,7 +61,7 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
 
 ___
 
-# Proyectos Parecidos, no comerciales
+# Proyectos Parecidos
 
 ## Hechos en Argentina
 + [El de Jorge Aliaga, con otro sensor](https://github.com/jlaliaga/Medidor-de-CO2)
