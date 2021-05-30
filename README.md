@@ -46,22 +46,22 @@ ___
 ## Funcionalidad
 El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros posibles usos, como monitoreo externo o remoto. Usando un pulsador podemos iniciar una rutina de calibración forzada, opcional, que se realiza esperando unos minutos en el exterior con el medidor encendido. El medidor se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado, o una batería. Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación traseros que permiten que el aire circule libremente a través del sensor. También es importante asegurarse de que no hayan fuentes de CO2 que no provengan de la respiración.
 
-## Lista de Componentes
+## Lista de Componentes 
 1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno).
 2. Entradas: 
    1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf).
-   2. Pulsador. 
+   2. [Pulsador](https://articulo.mercadolibre.com.ar/MLA-831826308-mini-pulsador-nc-na-metal-1a-250v-rojo-negro-_JM?searchVariation=48395399536#searchVariation=48395399536&position=10&search_layout=stack&type=item&tracking_id=953b5afb-9dc7-4574-b4a3-8c5bc287dfb3). 
 3. Salidas:
    1. Pantalla [LCD I2C 16x2](https://aprendiendoarduino.wordpress.com/2018/10/17/pantalla-lcd-i2c-en-arduino/).
-   2. Audio: Buzzer pasivo.
+   2. Audio: Buzzer pasivo. Buzzer Pasivo Zumbador Tonos Raspi Arduino Pack X10.
    3. Puerto Serial USB del Arduino UNO.
 6. Alimentación: [Cargador Portátil Gadnic BC-26 10000 mAh de Carga Rápida USB con Indicador Batería](https://www.gadnic.com.ar/cargadores-portatiles/mini-power-bank-gadnic-10000mah-celular-portable-carga-rapida?source=shopping&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hNEWgSMh8Dhvq2dokc-VR9O0HjDaYrEMnrP-C9cRBaNrsn3jscANYYaAntUEALw_wcB).
 7. Gabinete: Cajas de Luz adaptadas.
 8. Otros accesorios: 
-   1. mini protoboard adhesiva. 
-   2. cablecitos macho-macho, hembra-macho.
-   3. Peines. 
-   4. Resistencia.
+   1. Protoboard adhesiva de 170 Puntos.
+   2. Cablecitos macho-macho, hembra-macho. Pack 40 Cables Dupont Macho Hembra 20cm. 
+   3. Peines Tira Pines Macho 1x40 Paso 2.54mm Largo 11mm Pack X 10. 
+   4. Resistencia 10K x .
 
 ## Circuito
 
