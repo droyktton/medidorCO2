@@ -25,18 +25,26 @@ ___
 # Medidor
  
 ## Funcionalidad
-El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros usos. Usando un pulsador podemos inicial una rutina de calibración forzada, que es opcional. Se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado o una batería. Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación que permiten que el aire circule a través del sensor.
+El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los mismos datos son impresos en el puerto serial para otros usos. Usando un pulsador podemos iniciar una rutina de calibración forzada, opcional. El medidor se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado, o una batería. Es importante colocar el medidor lejos de las personas y no obstruir sus conductos de ventilación que permiten que el aire circule a través del sensor.
 
 ## Lista de Componentes
-1. Sensor especifico para CO2.
-2. Arduino.
-3. etc.
+1. Sensor especifico para CO2:
+2. Placa Arduino:
+3. Pantalla: LCD 16x2.
+4. Audio: Buzzer pasivo.
+5. Batería: Gadnic 10000 mAh.
+6. Gabinete: Cajas de Luz.
+7. Otros accesorios: 
+   1. mini protoboard adhesiva. 
+   2. cablecitos macho-macho, hembra-macho.
+   3. Peines. 
 
 ## Circuito
 
 ## Software
 
+___
 
-
+# Agradecimientos
 
 
