@@ -1,6 +1,6 @@
 # Medidor de CO2  
 
-Este repositorio público documenta los detalles técnicos de un medidor económico no comercial de concentración de CO2 en el aire usando un sensor específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. 
+Este repositorio público documenta los detalles técnicos de un medidor económico *no comercial* de concentración de CO2 en el aire usando un sensor específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. 
 
 ___
 
@@ -61,15 +61,7 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
 
 ___
 
-# Agradecimientos
-
-+ A Pierre Arneodo por diseñar y armar los gabinetes.
-+ A Eduardo Jagla por la motivación, la experimentación, y la discusión.
-+ A Luciano Lamaite y Jorge Aliaga por los tips técnicos y prácticos.
-+ Al Instituto Balseiro por apoyar la iniciativa. 
-
-
-# Proyectos Parecidos
+# Proyectos Parecidos, no comerciales
 
 ## Hechos en Argentina
 + [El de Jorge Aliaga, con otro sensor](https://github.com/jlaliaga/Medidor-de-CO2)
@@ -81,6 +73,14 @@ ___
 + https://github.com/anaireorg/anaire-devices
 + https://fablab.ruc.dk/co2/
 + https://github.com/Alitux/solarco2
+
+# Agradecimientos
+
++ A Pierre Arneodo por diseñar y armar los gabinetes.
++ A Eduardo Jagla por la motivación, la experimentación, y la discusión.
++ A Luciano Lamaite y Jorge Aliaga por los tips técnicos y prácticos.
++ Al Instituto Balseiro por apoyar la iniciativa. 
+
 
 
 
