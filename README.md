@@ -57,7 +57,7 @@ El medidor muestra la concentración de CO2, la temperatura y la humedad relativ
    3. Puerto Serial USB del Arduino UNO.
 6. Alimentación: 
    1. [Cargador Portátil Gadnic BC-26 10000 mAh de Carga Rápida USB con Indicador Batería](https://www.gadnic.com.ar/cargadores-portatiles/mini-power-bank-gadnic-10000mah-celular-portable-carga-rapida?source=shopping&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hNEWgSMh8Dhvq2dokc-VR9O0HjDaYrEMnrP-C9cRBaNrsn3jscANYYaAntUEALw_wcB).
-   2. Alternativamente, el puerto USB del Arduino UNO.
+   2. Alternativamente, el puerto USB o la entrada de 9V del Arduino UNO.
 8. Gabinete: Cajas de Luz adaptadas.
 9. Otros accesorios: 
    1. Protoboard adhesiva de 170 Puntos.
