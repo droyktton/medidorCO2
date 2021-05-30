@@ -2,6 +2,8 @@
 
 Este repositorio público documenta los detalles técnicos de un medidor de concentracion de CO2 en el aire usando un sensor NDIR, una placa Arduino y otros accesorios. Incluye los detalles del hardware, con sus componentes y circuitos, y del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. 
 
+___
+
 ## Motivación
 El covid19 se contagia principalmente por vía aérea, a través de la exhalación de aerosoles por personas infectadas (típicamente asíntomáticas o presintomáticas!), y la consiguiente inhalación de estos aerosoles contaminados por personas susceptibles. Cuando inhalamos aerosoles, estos se puede adherir a nuestros tractos respiratorios. Existe luego una probabilidad finita de que el virus, aún activo, se libere del interior de la gotita y alcance los receptores que propician su multiplicación en el cuerpo.  
 
