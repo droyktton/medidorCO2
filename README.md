@@ -98,6 +98,7 @@ ___
 + https://github.com/anaireorg/anaire-devices
 + https://fablab.ruc.dk/co2/
 + https://github.com/Alitux/solarco2
++ etc
 
 # Agradecimientos
 
