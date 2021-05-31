@@ -4,6 +4,9 @@
 ## lee el puerto serial
 ## imprime co2, T, H en un file "medidor.dat"
 
+#instalar serial:
+#https://pyserial.readthedocs.io/en/latest/pyserial.html#installation
+
 import serial
 import numpy as np
 import matplotlib.pyplot as plt
