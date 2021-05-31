@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-## lee el puerto serial
-## imprime co2, T, H en un file "medidor.dat"
+## lee el puerto serial que escribe el medidor
+## e imprime co2, T, H en un file "medidor.dat"
 
 #instalar serial:
 #https://pyserial.readthedocs.io/en/latest/pyserial.html#installation
