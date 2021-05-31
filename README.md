@@ -4,7 +4,7 @@ Este repositorio público documenta los detalles técnicos de la construcción d
 
 Este proyecto puede ser perfectamente realizado por no especialistas, idealmente por aficionados o "makers" de cualquier nivel de la gran comunidad de Arduino. No requiere conocimientos profundos de electrónica, ni de programación, ni de matemática, ni de física. Sólo se necesita un soldador y un poco de estaño para realizar un par de soldaduras muy sencillas, y una computadora con cualquier sistema operativo con algún Arduino IDE instalado. La comunidad del software y hardware libre es tan grande y generosa que ante cualquier duda basta saber googlear perseverantemente para encontrar una respuesta en la mayoría de los casos. Lo más dificil de este proyecto es adquirir los sensores de CO2 ya que, por ahora, en Argentina, hay que importarlos. El resto de los componentes se pueden conseguir, y usualmente hay stock, en tiendas locales de Argentina. 
 
-El proyecto completo consistió en el armado de 5 medidores idénticos para medir la calidad del aire en la ciudad de San Carlos de Bariloche. Las mediciones y experimentos serán recopilados en un blog. Con este sencillo proyecto nos sumamos a la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar) desde San Carlos de Bariloche.
+El proyecto completo consistió en el armado de 5 medidores idénticos para medir la calidad del aire en la ciudad de San Carlos de Bariloche, en particular en institutos, laboratorios y escuelas. Las mediciones y experimentos serán recopilados en un blog. Con este sencillo proyecto nos sumamos a la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar) desde San Carlos de Bariloche.
 
 ___
  
