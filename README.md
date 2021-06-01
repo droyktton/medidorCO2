@@ -135,6 +135,7 @@ ___
 + ¡A las instituciones educativas que aceptaron medir en sus aulas! 
 
 # Contacto 
+Sugerencias, correcciones y preguntas son muy bien bienvenidas.
 @droyktton en twitter.
 
 
