@@ -4,43 +4,59 @@
 </head>
 
 <body>
-  <div id="myDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <div id="myDiv" style="width: 900px; height: 900px;"><!-- Plotly chart will be drawn inside this DIV --></div>
   <script>
-  <!-- ENTER JAVASCRIPT CODE HERE -->
-  </script>
-</body>
-
-
-<script>
 function makeplot() {
-  Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014_apple_stock.csv", function(data){ processData(data) } );
-
+ 	Plotly.d3.csv("https://raw.githubusercontent.com/droyktton/loscoihues/master/ventilacion/medidor.dat", function(data){ processData(data) } );
 };
-  
+	
 function processData(allRows) {
 
-  console.log(allRows);
-  var x = [], y = [], standard_deviation = [];
-
-  for (var i=0; i<allRows.length; i++) {
-    row = allRows[i];
-    x.push( row['AAPL_x'] );
-    y.push( row['AAPL_y'] );
-  }
-  console.log( 'X',x, 'Y',y, 'SD',standard_deviation );
-  makePlotly( x, y, standard_deviation );
+	console.log(allRows);
+	var x = [], y = [];
+	var y2 = [], y3=[]; 
+		
+	for (var i=0; i<allRows.length; i++) {
+		row = allRows[i];
+		x.push( row["fecha"] );
+		y.push( row["co2"] );
+		y2.push( row["temp"] );
+		y3.push( row["humedad"] );
+	}
+	console.log( 'X',x, 'Y',y, 'Y2',y, 'Y3',y3);
+	makePlotly( x, y, y2, y3 );
 }
 
-function makePlotly( x, y, standard_deviation ){
-  var plotDiv = document.getElementById("plot");
-  var traces = [{
-    x: x, 
-    y: y
-  }];
+function makePlotly( x, y, y2, y3 ){
+	var plotDiv = document.getElementById("plot");
+	var traces = [
+	{
+		x: x, 
+		y: y,
+		name: 'ppm de CO2'
+	},
+	{
+		x: x, 
+		y: y2,
+		name: 'Temperatura',
+		xaxis: 'x2',
+  		yaxis: 'y2',
+	},	
+	{
+		x: x, 
+		y: y3,
+		name: 'Humedad',
+		xaxis: 'x3',
+  		yaxis: 'y3',
+	},	
+	];
 
-  Plotly.newPlot('myDiv', traces, 
-    {title: 'Plotting CSV data from AJAX call'});
+	var layout = {
+  	grid: {rows: 3, columns: 1, pattern: 'independent'},
+	};
+	
+	Plotly.newPlot('myDiv', traces, layout);
 };
-  makeplot();
-<script>
-
+  makeplot();  
+  </script>
+</body>
