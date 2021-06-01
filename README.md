@@ -136,9 +136,9 @@ ___
 
 + A Pierre Arneodo Larrochette por diseñar y armar los gabinetes, y por el ensamblado final.
 + A Eduardo Jagla por la motivación, la experimentación, y la discusión.
-+ A Luciano Lamaita y Jorge Aliaga por compartirnos numerosos tips técnicos y prácticos.
++ A Luciano Lamaita y Jorge Aliaga por compartirme generosamente numerosos tips técnicos y prácticos.
 + Al Instituto Balseiro por apoyar la iniciativa. 
-+ ¡A las instituciones educativas que aceptaron medir en sus aulas! 
++ ¡A las instituciones educativas que van aceptando medir en sus aulas! 
 
 # Contacto 
 Sugerencias, correcciones y preguntas son muy bien bienvenidas.
