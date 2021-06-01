@@ -88,7 +88,7 @@ Si por accidente se apretara el botón en cirscunstancias no controladas, será 
    3. "Peines" [Tira Pines Macho 1x40 Paso 2.54mm Largo 11mm](https://articulo.mercadolibre.com.ar/MLA-856724875-tira-pines-macho-1x40-paso-254mm-largo-11mm-pack-x-10-_JM?matt_tool=88481412&matt_word=&matt_source=google&matt_campaign_id=11618987428&matt_ad_group_id=113657532672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479785004862&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=214357370&matt_product_id=MLA856724875&matt_product_partition_id=353037831509&matt_target_id=aud-416637721346:pla-353037831509&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx2fx4KlgKT8XJ12dwbPWXIHZH7ti3DfmetLhYyTJxpGava6vAcQRXwaAp1yEALw_wcB) **1**.
    4. Resistencia 10 kOhm x **1**.
 
-Los links son solo referencias a las componentes, no recomendaciones de compra.
+Los links son solo referencias a las componentes, no recomendaciones de sitios de compra.
 
 ## Circuito
 ![final](medidoresIB/esquema_bb.png)
