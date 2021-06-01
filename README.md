@@ -100,9 +100,7 @@ Los links son solo referencias a las componentes, no recomendaciones de compra.
 [comment]: <> (<img src="medidoresIB/20210531_192937.jpg" alt="drawing" width="300"/>)
 
 
-[comment]: <> (![final](medidoresIB/20210531_175833.jpg))
-
-![final](medidoresIB/escrito.jpg)
+![final](medidoresIB/20210531_175833.jpg)
 ![final](medidoresIB/20210531_185241.jpg)
 ![final](medidoresIB/20210531_185509.jpg)
 ![final](medidoresIB/20210531_185800.jpg)
