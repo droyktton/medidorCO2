@@ -94,6 +94,8 @@ Los links son solo referencias a las componentes, no recomendaciones de sitios d
 
 ## Circuito
 ![final](medidoresIB/esquema_bb.png)
+Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibración, los pines A4/A5 van respectivamente al SDA/SCL de ambos, el LCD I2C y el SCD30, la chicharra o buzzer pasivo es controlada con el pin digital 8, y la batería se conecta al USB del Arduino. Notar que el SCD30 está alimentado con la salida de 3.3V. 
+
 
 ## Software
 
