@@ -86,7 +86,7 @@ Si por accidente se apretara el botón, será necesario presionarlo de nuevo par
 Los links son solo referencias a las componentes, no recomendaciones de compra.
 
 ## Circuito
-![final](medidoresIB/esquema_bb.jpg)
+![final](medidoresIB/esquema_bb.png)
 
 ## Ensamblaje
 [comment]: <> (This is a comment, it will not be included)
