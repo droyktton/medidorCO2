@@ -87,6 +87,19 @@ Los links son solo referencias a las componentes, no recomendaciones de compra.
 
 ## Circuito
 
+## Armado 
+
+![final](medidoresIB/20210531_192937.jpg "Title")
+
+![final](medidoresIB/20210531_175833.jpg)
+![final](medidoresIB/20210531_185241.jpg)
+![final](medidoresIB/20210531_185509.jpg)
+![final](medidoresIB/20210531_185800.jpg)
+![final](medidoresIB/20210531_192619.jpg)
+![final](medidoresIB/20210531_192653.jpg)
+![final](medidoresIB/20210531_192937.jpg)
+![final](medidoresIB/20210531_194427.jpg)
+
 ## Software
 
 Para programar la placa Arduino usamos el [open-source Arduino Software (IDE)](https://www.arduino.cc/en/software) en Ubuntu 20.04 linux.
