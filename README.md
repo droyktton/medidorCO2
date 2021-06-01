@@ -89,6 +89,8 @@ Los links son solo referencias a las componentes, no recomendaciones de compra.
 
 ## Armado 
 
+<img src="medidoresIB/20210531_175833.jpg" alt="drawing" width="200"/>
+
 ![final](medidoresIB/20210531_175833.jpg)
 ![final](medidoresIB/20210531_185241.jpg)
 ![final](medidoresIB/20210531_185509.jpg)
