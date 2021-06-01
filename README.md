@@ -91,6 +91,8 @@ Los links son solo referencias a las componentes, no recomendaciones de compra.
 ## Ensamblaje
 [comment]: <> (This is a comment, it will not be included)
 
+Como gabinete usamos una caja de luz plastica, con aberturas traseras. 
+
 ![final](medidoresIB/20210531_175833.jpg)
 ![final](medidoresIB/20210531_185241.jpg)
 ![final](medidoresIB/20210531_185509.jpg)
