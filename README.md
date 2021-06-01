@@ -87,16 +87,16 @@ Los links son solo referencias a las componentes, no recomendaciones de compra.
 
 ## Circuito
 
-## Armado 
+## Ensamblaje
 [comment]: <> (This is a comment, it will not be included)
 
-<img src="medidoresIB/20210531_175833.jpg" alt="drawing" width="300">
-<img src="medidoresIB/20210531_185241.jpg" alt="drawing" width="300"/>
-<img src="medidoresIB/20210531_185509.jpg" alt="drawing" width="300"/>
-<img src="medidoresIB/20210531_185800.jpg" alt="drawing" width="300"/>
-<img src="medidoresIB/20210531_192619.jpg" alt="drawing" width="300"/>
-<img src="medidoresIB/20210531_192653.jpg" alt="drawing" width="300"/>
-<img src="medidoresIB/20210531_192937.jpg" alt="drawing" width="300"/>
+[comment]: <> <img src="medidoresIB/20210531_175833.jpg" alt="drawing" width="300">
+[comment]: <> <img src="medidoresIB/20210531_185241.jpg" alt="drawing" width="300"/>
+[comment]: <> <img src="medidoresIB/20210531_185509.jpg" alt="drawing" width="300"/>
+[comment]: <> <img src="medidoresIB/20210531_185800.jpg" alt="drawing" width="300"/>
+[comment]: <> <img src="medidoresIB/20210531_192619.jpg" alt="drawing" width="300"/>
+[comment]: <> <img src="medidoresIB/20210531_192653.jpg" alt="drawing" width="300"/>
+[comment]: <> <img src="medidoresIB/20210531_192937.jpg" alt="drawing" width="300"/>
 
 ![final](medidoresIB/20210531_175833.jpg)
 ![final](medidoresIB/20210531_185241.jpg)
@@ -128,7 +128,7 @@ ___
 
 # Agradecimientos
 
-+ A Pierre Arneodo Larrochette por diseñar y armar los gabinetes.
++ A Pierre Arneodo Larrochette por diseñar y armar los gabinetes, y por el ensamblado final.
 + A Eduardo Jagla por la motivación, la experimentación, y la discusión.
 + A Luciano Lamaite y Jorge Aliaga por numerosos tips técnicos y prácticos.
 + Al Instituto Balseiro por apoyar la iniciativa. 
