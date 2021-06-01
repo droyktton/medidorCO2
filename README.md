@@ -6,8 +6,7 @@ Este proyecto puede ser perfectamente realizado por no especialistas, idealmente
 
 El proyecto completo consistió en el armado de 5 medidores idénticos para medir la calidad del aire en la ciudad de San Carlos de Bariloche, en particular en institutos, laboratorios y escuelas. Las mediciones y experimentos serán recopilados en un blog. Con este sencillo proyecto nos sumamos a la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar) desde San Carlos de Bariloche.
 
-![final](medidoresIB/20210531_194427.jpg)
-
+<img src="medidoresIB/20210531_194427.jpg" alt="drawing" width="300">
 ___
  
 ## Motivación
