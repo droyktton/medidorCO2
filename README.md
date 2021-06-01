@@ -106,9 +106,9 @@ Los links son solo referencias a las componentes, no recomendaciones de sitios d
 ## Ensamblaje
 [comment]: <> (This is a comment, it will not be included)
 
-Como gabinete usamos una caja de luz plastica, con varias aberturas traseras para dejar circular el aire a través del sensor de CO2. 
+Como gabinete usamos una caja de luz plástica, con varias aberturas traseras para dejar circular el aire a través del sensor de CO2. 
 Comprobamos que las mediciones estacionarias con y sin el gabinete eran indistinguibles dentro del error esperando del sensor (de 30ppm  aproximadamente).
-Nos resulto muy útil que la miniboard sea adhesiva. En caso de necesitar cambiar el present del backlight, el LCD se accede fácilmente sacando la tapa superior y aflojando sólo dos tornillos. A contiunación fotos del ensamblado de todas las partes.
+Nos resultó muy útil en el ensamblado que la miniboard sea, además de pequeña, adhesiva. En caso de necesitar cambiar el present del backlight, el LCD se accede fácilmente sacando la tapa superior y aflojando sólo dos tornillos. A contiunación fotos del ensamblado de todas las partes.
 
 ![final](medidoresIB/20210531_175833.jpg)
 ![final](medidoresIB/20210531_185241.jpg)
