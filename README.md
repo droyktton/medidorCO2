@@ -95,7 +95,7 @@ ___
 
 # Proyectos Parecidos
 
-+ [El de Jorge Aliaga](https://github.com/jlaliaga/Medidor-de-CO2)
++ https://github.com/jlaliaga/Medidor-de-CO2
 + https://www.instructables.com/CO2-Sensor-for-Schools/ 
 + https://emariete.com/medidor-casero-co2/
 + https://github.com/danielbernalb/LibreCO2/blob/main/INSTRUCCIONES%20en%20Espa%C3%B1ol.md
