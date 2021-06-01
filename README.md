@@ -34,8 +34,10 @@ El número de cambios de aire por hora o ACH cuantifica la ventilación de un in
 
 <img src="medidoresIB/conversiones.png" alt="drawing" width="1000" class="center">
 
-En la figura, se muestra un ejemplo del uso de la calculadora online para hacer predicciones. **Izquierda**: Supongamos que medimos unos 700 ppm en un dado interior de 50m^3 donde hay tres personas realizando una actividad que los lleva a emitir 0.2 litros por minuto de CO2 (ver 
-[tabla](https://droyktton.github.io/loscoihues/ventilacion/CO2ACHProbInfeccionV3.html) según actividad). Entonces el número de cambios de aire por hora es ACH=2.35 aproximadamente. **Medio**: Podemos verificar que ese valor de ACH es consistente con los ppm de CO2. **Derecha**: conocido el ACH, y asumuiendo razonablemente que éste no cambia cambiando el número de personas adentro, podemos estimar la concentración que habría si hay diez personas realizando el mismo tipo de actividad en vez de tres, obteniendo el valor de 1401 ppm de CO2. Muchos más detalles y ejemplos ilustrativos de este tipo de cálculos en aulas pueden encontrarse [aquí](https://www.csic.es/sites/www.csic.es/files/guia_para_ventilacion_en_aulas_csic-mesura.pdf).
+En la figura, se muestra un ejemplo del uso de la calculadora online para hacer predicciones. **Izquierda**: Supongamos que medimos unos 700 ppm en un dado interior de 50 m<sup>3</sup> de volumen donde hay tres personas realizando una actividad que los lleva a emitir 0.2 litros por minuto de CO2 (ver 
+[tabla](https://droyktton.github.io/loscoihues/ventilacion/CO2ACHProbInfeccionV3.html) de emisiones según actividad). Entonces el número de cambios de aire por hora es ACH=2.35 aproximadamente. **Medio**: Podemos verificar que ese valor de ACH es consistente con los ppm de CO2. **Derecha**: conocido el ACH, y asumuiendo razonablemente que éste no cambia cambiando el número de personas adentro, podemos estimar la concentración que habría si hay diez personas realizando el mismo tipo de actividad en vez de tres, obteniendo el valor de 1401 ppm de CO2. 
+
+Muchos más detalles y ejemplos ilustrativos de este tipo de cálculos en aulas pueden encontrarse pro ejemplo [aquí](https://www.csic.es/sites/www.csic.es/files/guia_para_ventilacion_en_aulas_csic-mesura.pdf).
  
 
 ### ¿Estoy ventilando bien?
