@@ -1,5 +1,5 @@
 # Medidor de CO2  
-
+ 
 Este repositorio público documenta los detalles técnicos de la construcción de un medidor económico *no comercial* de concentración de dióxido de carbono (CO2) en el aire usando un sensor de CO2 específico de tipo NDIR (infrarojo no dispersivo), una placa Arduino y otros accesorios comunes. Incluye los detalles del hardware, con sus componentes y circuitos asi como del software usado para controlar, mediante una placa Arduino, la adquisición de datos del sensor y la actuación sobre dispositivos de salida como pantallas, bocinas, y puerto serial. Software adicional permite leer el puerto serial para un análisis más detallado de las series temporales, en forma local o remota, textual o gráfica. 
 
 Este proyecto puede ser perfectamente realizado por no especialistas, idealmente por aficionados o "makers" de cualquier nivel de la gran comunidad de Arduino. No requiere conocimientos profundos de electrónica, ni de programación, ni de matemática, ni de física. Sólo se necesita un soldador y un poco de estaño para realizar un par de soldaduras muy sencillas, y una computadora con cualquier sistema operativo con algún Arduino IDE instalado. La comunidad del software y hardware libre es tan grande y generosa que ante cualquier duda basta saber googlear perseverantemente para encontrar una respuesta en la mayoría de los casos. Lo más dificil de este proyecto es adquirir los sensores NDIR de CO2 ya que, por ahora, en Argentina, hay que importarlos. El resto de los componentes se pueden conseguir, y usualmente hay stock, en tiendas locales de Argentina. 
@@ -11,7 +11,7 @@ El proyecto completo consistió en el armado de 5 medidores idénticos para medi
 ___
  
 ## Motivación
- 
+
 ### COVID19
 
 El covid19 se contagia principalmente por [vía aérea](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00869-2/fulltext#.YILw1d1ShYA.twitter), a través de la exhalación de aerosoles por personas infectadas (¡típicamente asíntomáticas o presintomáticas!), y la consiguiente inhalación de estos aerosoles contaminados por personas susceptibles. Cuando inhalamos aerosoles, algunas de estas gotitas se puede [adherir a nuestros tractos respiratorios](https://www.nature.com/articles/s42254-021-00307-4). Existe luego una probabilidad finita de que el virus, aún activo, se libere del interior de una de esas gotitas y alcance los [receptores](https://www.sciencedirect.com/science/article/abs/pii/S0092867420306759) que propician su multiplicación, con las conocidas consecuencias en la salud de las personas.  
@@ -86,19 +86,10 @@ Si por accidente se apretara el botón, será necesario presionarlo de nuevo par
 Los links son solo referencias a las componentes, no recomendaciones de compra.
 
 ## Circuito
+![final](medidoresIB/esquema_bb.jpg)
 
 ## Ensamblaje
-
 [comment]: <> (This is a comment, it will not be included)
-
-[comment]: <> (<img src="medidoresIB/20210531_175833.jpg" alt="drawing" width="300">)
-[comment]: <> (<img src="medidoresIB/20210531_185241.jpg" alt="drawing" width="300"/>)
-[comment]: <> (<img src="medidoresIB/20210531_185509.jpg" alt="drawing" width="300"/>)
-[comment]: <> (<img src="medidoresIB/20210531_185800.jpg" alt="drawing" width="300"/>)
-[comment]: <> (<img src="medidoresIB/20210531_192619.jpg" alt="drawing" width="300"/>)
-[comment]: <> (<img src="medidoresIB/20210531_192653.jpg" alt="drawing" width="300"/>)
-[comment]: <> (<img src="medidoresIB/20210531_192937.jpg" alt="drawing" width="300"/>)
-
 
 ![final](medidoresIB/20210531_175833.jpg)
 ![final](medidoresIB/20210531_185241.jpg)
