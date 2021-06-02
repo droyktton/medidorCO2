@@ -116,7 +116,7 @@ Si por accidente se apretara el botón en cirscunstancias no controladas, será 
 Los links son solo referencias a las componentes, no recomendaciones de sitios de compra.
 
 ## Circuito
-![final](medidoresIB/esquema_bb.png)
+![final](medidoresIB/doc/esquema_bb.png)
 Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibración, los pines A4/A5 van respectivamente al SDA/SCL de ambos, el LCD I2C y el SCD30, la chicharra o buzzer pasivo es controlada con el pin digital 8, y la batería se conecta al USB del Arduino. Notar que el SCD30 está alimentado con la salida de 3.3V. 
 
 
@@ -137,13 +137,13 @@ Como gabinete usamos una caja de luz plástica, con varias aberturas traseras pa
 Comprobamos que las mediciones estacionarias con y sin el gabinete eran indistinguibles dentro del error esperando del sensor (de 30ppm  aproximadamente).
 Nos resultó muy útil en el ensamblado que la miniboard sea, además de pequeña, adhesiva. En caso de necesitar cambiar el present del backlight, el LCD se accede fácilmente sacando la tapa superior y aflojando sólo dos tornillos. A contiunación fotos del ensamblado de todas las partes.
 
-![final](medidoresIB/20210531_175833.jpg)
-![final](medidoresIB/20210531_185241.jpg)
-![final](medidoresIB/20210531_185509.jpg)
-![final](medidoresIB/20210531_185800.jpg)
-![final](medidoresIB/20210531_192619.jpg)
-![final](medidoresIB/20210531_192653.jpg)
-![final](medidoresIB/20210531_192937.jpg)
+![final](medidoresIB/doc/20210531_175833.jpg)
+![final](medidoresIB/doc/20210531_185241.jpg)
+![final](medidoresIB/doc/20210531_185509.jpg)
+![final](medidoresIB/doc/20210531_185800.jpg)
+![final](medidoresIB/doc/20210531_192619.jpg)
+![final](medidoresIB/doc/20210531_192653.jpg)
+![final](medidoresIB/doc/20210531_192937.jpg)
 
 ___
 
