@@ -101,7 +101,7 @@ Si por accidente se apretara el botón en cirscunstancias no controladas, será 
 ## Lista de Componentes 
 1. Placa [Arduino UNO](https://es.wikipedia.org/wiki/Arduino_Uno) x **1**.
 2. Entradas: 
-   1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf)  x **1**. Un posible [importador a Argentina](https://ar.mouser.com/ProductDetail/Sensirion/SCD30/?qs=rrS6PyfT74fdywu4FxpYjQ%3D%3D).
+   1. Módulo Sensor de CO2, humedad y temperatura [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf)  x **1**. Un posible [importador a Argentina](https://ar.mouser.com/ProductDetail/Sensirion/SCD30/?qs=rrS6PyfT74fdywu4FxpYjQ%3D%3D). Este es el componente más importante que recomendamos adquirir primero. Hay otros sensores NDIR de buena calidad, ver [lista](#proyectos-parecidos).   
    2. [Pulsador](https://articulo.mercadolibre.com.ar/MLA-831826308-mini-pulsador-nc-na-metal-1a-250v-rojo-negro-_JM?searchVariation=48395399536#searchVariation=48395399536&position=10&search_layout=stack&type=item&tracking_id=953b5afb-9dc7-4574-b4a3-8c5bc287dfb3)  x **1**. 
 3. Salidas:
    1. Pantalla [LCD I2C 16x2](https://aprendiendoarduino.wordpress.com/2018/10/17/pantalla-lcd-i2c-en-arduino/)  x **1**.
