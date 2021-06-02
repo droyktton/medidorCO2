@@ -145,6 +145,8 @@ Nos resultó muy útil en el ensamblado que la miniboard sea, además de pequeñ
 ![final](medidoresIB/doc/20210531_185800.jpg)
 ![final](medidoresIB/doc/20210531_192619.jpg)
 ![final](medidoresIB/doc/20210531_192653.jpg)
+![final](medidoresIB/doc/20210602_165355.jpg)
+![final](medidoresIB/doc/20210602_165419.jpg)
 ![final](medidoresIB/doc/20210531_192937.jpg)
 
 ___
