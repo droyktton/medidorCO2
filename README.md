@@ -86,7 +86,7 @@ Si por accidente se apretara el botón en cirscunstancias no controladas, será 
 8. Gabinete: Cajas de Luz adaptadas  x **1**.
 9. Otros accesorios: 
    1. [Mini Protoboard adhesiva de 170 Puntos](https://articulo.mercadolibre.com.ar/MLA-732244755-mini-protoboard-170-puntos-electronica-experimental-arduino-_JM?matt_tool=88481412&matt_word=&matt_source=google&matt_campaign_id=11618987428&matt_ad_group_id=113657532672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479785004862&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=151751194&matt_product_id=MLA732244755&matt_product_partition_id=353037831509&matt_target_id=aud-416637721346:pla-353037831509&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx3r4aBWp5LLAuv8au6MtcoLOjKKyF1T4pTUQ9VDEvXlwKXRzFdaztoaAka4EALw_wcB)  x **1**.
-   2. Cablecitos macho-macho, hembra-macho. Pack 40 Cables Dupont Macho Hembra 20cm,  x **N**. 
+   2. Cables Dupont Macho Hembra y Macho Macho de 20cm x **30**. 
    3. "Peines" [Tira Pines Macho 1x40 Paso 2.54mm Largo 11mm](https://articulo.mercadolibre.com.ar/MLA-856724875-tira-pines-macho-1x40-paso-254mm-largo-11mm-pack-x-10-_JM?matt_tool=88481412&matt_word=&matt_source=google&matt_campaign_id=11618987428&matt_ad_group_id=113657532672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479785004862&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=214357370&matt_product_id=MLA856724875&matt_product_partition_id=353037831509&matt_target_id=aud-416637721346:pla-353037831509&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx2fx4KlgKT8XJ12dwbPWXIHZH7ti3DfmetLhYyTJxpGava6vAcQRXwaAp1yEALw_wcB) **1**.
    4. Resistencia 10 kOhm x **1**.
 
@@ -94,15 +94,17 @@ Los links son solo referencias a las componentes, no recomendaciones de sitios d
 
 ## Circuito
 ![final](medidoresIB/esquema_bb.png)
+Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibración, los pines A4/A5 van respectivamente al SDA/SCL de ambos, el LCD I2C y el SCD30, la chicharra o buzzer pasivo es controlada con el pin digital 8, y la batería se conecta al USB del Arduino. Notar que el SCD30 está alimentado con la salida de 3.3V. 
+
 
 ## Software
 
 + [El código fuente que controla la placa Arduino](./medidoresIB/medidoresIB.ino) fue escrito usando el [open-source Arduino Software (IDE)](https://www.arduino.cc/en/software) en Ubuntu 20.04 linux. Para interactuar con el sensor NDIR usamos la biblioteca [SparkFun_SCD30_Arduino_Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library). Para interactuar con la pantalla LCD I2C usamos la biblioteca [liquid-crystal-i2-c](https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c). 
 
-+ El código [leerserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/leerserial.py) para leer el puerto serial está escrito en python usando la biblioteca [https://pyserial.readthedocs.io/en/latest/pyserial.html#installation](pyserial). Luego de alimentar el medidor, este programa lee los datos que el mismo imprime en el puerto serial y los va volcando a un file "medidor.dat" que contiene toda la serie temporal de mediciones de concentración de CO2, temperatura, y humedad, en función del tiempo absoluto y relativo al comienzo de la medición. El Arduino IDE también tiene un "serial monitor" e incluso un "serial plotter", pero no encontre la forma de que grabe un archivo. Por esta razón escribimos este pequeño script en python.
++ El código [leerserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/leerserial.py) para leer el puerto serial está escrito en python usando la biblioteca [pyserial](https://pyserial.readthedocs.io/en/latest/pyserial.html#installation). Luego de alimentar el medidor, este programa lee los datos que el mismo imprime en el puerto serial y los va volcando a un file "medidor.dat" que contiene toda la serie temporal de mediciones de concentración de CO2, temperatura, y humedad, en función del tiempo absoluto y relativo al comienzo de la medición. El Arduino IDE también tiene un "serial monitor" e incluso un "serial plotter", pero no encontre la forma de que grabe un archivo. Por esta razón escribimos este pequeño script en python.
  
 + *Monitoreo remoto:* El presente medidor no tiene conexión bluetooth ni wifi, solo podemos comunicarnos con el vía USB. Una idea sencilla para monitorear remotamente es dejar el medidor conectado via USB a una computadora conectada a internet (laptop, raspberry, etc) y lanzar en esta última el script  de python 
-[leerserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/leerserial.py) en background y con otro script (o completando el script de python para que lo haga también) copiar cada tanto el archivo de salida "medidor.dat" a un repositorio compartido en la nube (github, dropbox, etc). Se podría incluso compartir directamente el gráfico del monitoreo en tiempo real ploteando los datos en una página web usando, por ejemplo, [plotly javascript](https://plotly.com/javascript/). TODO. 
+[leerserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/leerserial.py) en background y con otro script (o completando el script de python para que lo haga también) copiar cada tanto el archivo de salida "medidor.dat" a un repositorio compartido en la nube (github, dropbox, etc). Se podría incluso compartir directamente el gráfico del monitoreo en tiempo real ploteando los datos en una página web usando, por ejemplo, [plotly javascript](https://plotly.com/javascript/). Por ejemplo, con [este](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/dibujo.html) código, uno puede generar plots de [este tipo](https://droyktton.github.io/loscoihues/ventilacion/dibujo.html) en una página web, e ir enviando actualizaciones.  
 
 
 ## Ensamblaje
