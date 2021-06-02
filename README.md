@@ -15,11 +15,22 @@ ___
 # Contenidos
 1. [Motivación](#motivación)
    1. [COVID19](#covid19)
-   2. [¿Porqué medir CO2?](#porquemedir)
+   2. [¿Porqué medir CO2?](##porquemedir)
+   3. [¿Qué concentración de CO2?](##queconcentracion)
+   4. [¿Cuántos cambios de aire?](##cuantoscambios)
+   5. [¿Estoy venilando bien?](##estoyventilandobien)
+   6. [Preguntas frecuentes](##preguntasfrecuentes)
+   7. [Argentina](##argentina)
 3. [Medidor](#medidor)
-4. [Proyectos Parecidos](#proyectosparecidos)
-5. [Agradecimientos](#agradecimientos)
-6. [Contacto](#contacto)
+   1. [Funcionalidad](##funcionalidad)
+   2. [Uso](##Uso) 
+   3. [Lista de Componentes](##listadecomponentes)
+   4. [Circuito](##circuito)
+   5. [Software](##software)
+   6. [Ensamblaje](##ensamblaje)
+5. [Proyectos Parecidos](#proyectosparecidos)
+6. [Agradecimientos](#agradecimientos)
+7. [Contacto](#contacto)
 
 ___
  
