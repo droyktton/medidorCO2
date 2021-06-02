@@ -151,6 +151,9 @@ ___
 
 # Proyectos Parecidos
 
+Esta es un pequeña selección de proyectos de medidores que usan sensores NDIR de distintos tipos. 
+Hay proyectos usando por ejemplo sensores electroquímicos de CO2 más económicos, pero son menos específicos al CO2 y en general más difíciles de calibrar que los NDIR. 
+
 + https://github.com/jlaliaga/Medidor-de-CO2
 + https://www.instructables.com/CO2-Sensor-for-Schools/ 
 + https://emariete.com/medidor-casero-co2/
@@ -159,7 +162,6 @@ ___
 + https://github.com/anaireorg/anaire-devices
 + https://fablab.ruc.dk/co2/
 + https://github.com/Alitux/solarco2
-+ etc
 
 # Agradecimientos
 
