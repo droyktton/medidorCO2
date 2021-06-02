@@ -122,6 +122,8 @@ Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibraci
 
 ## Software
 
++ Todos los códigos están en [ésta carpeta]()
+
 + [El código fuente que controla la placa Arduino](./medidoresIB/src/medidoresIB.ino) fue escrito usando el [open-source Arduino Software (IDE)](https://www.arduino.cc/en/software) en Ubuntu 20.04 linux. Para interactuar con el sensor NDIR usamos la biblioteca [SparkFun_SCD30_Arduino_Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library). Para interactuar con la pantalla LCD I2C usamos la biblioteca [liquid-crystal-i2-c](https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c). 
 
 + El código [leerserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/leerserial.py) para leer el puerto serial está escrito en python usando la biblioteca [pyserial](https://pyserial.readthedocs.io/en/latest/pyserial.html#installation). Luego de alimentar el medidor, este programa lee los datos que el mismo imprime en el puerto serial y los va volcando a un file "medidor.dat" que contiene toda la serie temporal de mediciones de concentración de CO2, temperatura, y humedad, en función del tiempo absoluto y relativo al comienzo de la medición. El Arduino IDE también tiene un "serial monitor" e incluso un "serial plotter", pero no encontre la forma de que grabe un archivo. Por esta razón escribimos este pequeño script en python.
