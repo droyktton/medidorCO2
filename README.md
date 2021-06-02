@@ -16,6 +16,8 @@ ___
 1. [Motivación](#motivación)
 2. [Medidor](#medidor)
 3. [Proyectos Parecidos](#proyectosparecidos)
+4. [Agradecimientos](#agradecimientos)
+5. [Contacto](#contacto)
 
 ___
  
