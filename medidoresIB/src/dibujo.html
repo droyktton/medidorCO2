@@ -1,0 +1,62 @@
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <div id="myDiv" style="width: 900px; height: 900px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <script>
+function makeplot() {
+ 	Plotly.d3.csv("https://raw.githubusercontent.com/droyktton/loscoihues/master/ventilacion/medidor.dat", function(data){ processData(data) } );
+};
+	
+function processData(allRows) {
+
+	console.log(allRows);
+	var x = [], y = [];
+	var y2 = [], y3=[]; 
+		
+	for (var i=0; i<allRows.length; i++) {
+		row = allRows[i];
+		x.push( row["fecha"] );
+		y.push( row["co2"] );
+		y2.push( row["temp"] );
+		y3.push( row["humedad"] );
+	}
+	console.log( 'X',x, 'Y',y, 'Y2',y, 'Y3',y3);
+	makePlotly( x, y, y2, y3 );
+}
+
+function makePlotly( x, y, y2, y3 ){
+	var plotDiv = document.getElementById("plot");
+	var traces = [
+	{
+		x: x, 
+		y: y,
+		name: 'ppm de CO2'
+	},
+	{
+		x: x, 
+		y: y2,
+		name: 'Temperatura',
+		xaxis: 'x2',
+  		yaxis: 'y2',
+	},	
+	{
+		x: x, 
+		y: y3,
+		name: 'Humedad',
+		xaxis: 'x3',
+  		yaxis: 'y3',
+	},	
+	];
+
+	var layout = {
+  	grid: {rows: 3, columns: 1, pattern: 'independent'},
+	};
+	
+	Plotly.newPlot('myDiv', traces, layout);
+};
+  makeplot();  
+  </script>
+</body>
