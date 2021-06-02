@@ -138,8 +138,8 @@ Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibraci
 [comment]: <> (This is a comment, it will not be included)
 
 Como gabinete usamos una caja de luz plástica, con varias aberturas traseras para dejar circular el aire a través del sensor de CO2. 
-Comprobamos que las mediciones estacionarias con y sin el gabinete eran indistinguibles dentro del error esperando del sensor (de 30ppm  aproximadamente).
-Nos resultó muy útil en el ensamblado que la miniboard sea, además de pequeña, adhesiva. En caso de necesitar cambiar el present del backlight, el LCD se accede fácilmente sacando la tapa superior y aflojando sólo dos tornillos. A contiunación fotos del ensamblado de todas las partes.
+Comprobamos que las mediciones estacionarias con y sin el gabinete eran indistinguibles dentro del error esperando del sensor (de 30 ppm  aproximadamente).
+Nos resultó muy útil en el ensamblado que la miniboard sea, además de pequeña, adhesiva. En caso de necesitar cambiar el preset de su backlight, el LCD se accede fácilmente sacando la tapa superior y aflojando sólo dos tornillos. A contiunación fotos del ensamblado de todas las partes.
 
 ![final](medidoresIB/doc/20210531_175833.jpg)
 ![final](medidoresIB/doc/20210531_185241.jpg)
