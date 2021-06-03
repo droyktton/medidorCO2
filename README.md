@@ -175,6 +175,6 @@ Hay proyectos de medidores que usan por ejemplo sensores electroquímicos de CO2
 
 # Contacto 
 Sugerencias, correcciones y preguntas son muy bien bienvenidas.
-@droyktton en twitter.
+@droyktton en twitter o gmail.
 
 
