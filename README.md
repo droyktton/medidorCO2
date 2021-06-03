@@ -86,6 +86,8 @@ ___
 ## Funcionalidad 
 El medidor muestra la concentración de CO2, la temperatura y la humedad relativa, en una pantalla. Los *errores* aleatorios y sistemáticos esperables en cada una de estas lecturas está bien descripto en el manual del sensor [Sensirion SCD30](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf). Si la concentración de CO2 supera un umbral también sonará una chicharra cada pocos segundos, a modo de *alarma sonora*. Los mismos datos que muestra la pantalla son impresos en el puerto serial para otros posibles usos, como monitoreo externo o remoto. Apretando un pulsador podemos iniciar una *rutina de calibración forzada*, opcional, que se realiza siguiendo las instrucciones de la pantalla, en particular la de esperar unos minutos en el exterior con el medidor encendido. El medidor se alimenta con 5V o 9V, para lo cual se puede usar un cargador enchufado, o una batería. Con la batería propuesta el medidor, funcionando a pleno, tiene una *autonomía* de más de 24hs de uso. Con baterías normales de 9V se tiene mucho menos autonomía.
 
+<img src="medidoresIB/doc/pantallaCO2.gif" alt="drawing" width="400" class="center">
+
 ## Uso
 Es importante *colocar el medidor* lejos de las personas y no obstruir sus conductos de ventilación traseros que permiten que el aire circule libremente a través del sensor. En el caso que alguien respire muy cerca del medidor, será necesario esperar por un par de minutos hasta que el aire se mezcle y la medida ambiental se reestabilice. También es importante asegurarse de que no haya fuentes de CO2 que no provengan de la respiración de los ocupantes (hornos, hornallas, etc), caso contrario las advertencias en la pantalla no serán válidas. 
 
