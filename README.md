@@ -16,10 +16,10 @@ ___
 # Contenidos
 1. [Motivación](#motivación)
    1. [COVID19](#covid19)
-   2. [¿Porqué medir CO2?](#por-qué-medir-co2)
+   2. [¿Por qué medir CO2?](#por-qué-medir-co2)
    3. [¿Qué concentración de CO2?](#qué-concentración-de-co2)
    4. [¿Cuántos cambios de aire?](#cuántos-cambios-de-aire)
-   5. [¿Estoy venilando bien?](#estoy-ventilando-bien)
+   5. [¿Estoy ventilando bien?](#estoy-ventilando-bien)
    6. [Preguntas frecuentes](#preguntas-frecuentes)
    7. [Argentina](#argentina)
 2. [Medidor](#medidor)
