@@ -123,7 +123,7 @@ Los links son solo referencias a las componentes, no recomendaciones de sitios d
 
 ## Circuito
 ![final](medidoresIB/doc/esquema_bb.png)
-Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibración, los pines A4/A5 van respectivamente al SDA/SCL de ambos, el LCD I2C y el SCD30, la chicharra o buzzer pasivo es controlada con el pin digital 8, y la batería se conecta al USB del Arduino. Notar que el SCD30 está alimentado con la salida de 3.3V. Los "Peines" o tira de pines se soldaron a los conectores (VCC,SDA,SCL,GND) del sensor SCD30, para poder luego conectarlo a la miniboard. 
+Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibración y el pin 12 para registrar el evento, los pines A4/A5 van respectivamente al SDA/SCL de ambos, el LCD I2C y el SCD30, la chicharra o buzzer pasivo es controlada con el pin digital 8, y la batería se conecta al USB del Arduino. Notar que el SCD30 está alimentado con la salida de 3.3V. Los "Peines" o tira de pines se soldaron a los conectores (VCC,SDA,SCL,GND) del sensor SCD30, para poder luego conectarlo a la miniboard. 
 
 
 ## Software
