@@ -156,7 +156,7 @@ ___
 
 # Proyectos Parecidos
 
-Hay proyectos de medidores que usan por ejemplo sensores electroquímicos de CO2 o similares. Son más económicos, pero son menos específicos al CO2 y en general más difíciles de calibrar que los NDIR. Esta es un pequeña selección de proyectos de medidores que usan sensores NDIR de distintos tipos. 
+Hay proyectos de medidores que usan por ejemplo sensores electroquímicos de CO2 o similares. Son más económicos, pero son menos específicos al CO2 y en general más difíciles de calibrar que los NDIR. Por ello no son recomendados para el fin planteado. Esta es un pequeña selección de proyectos de medidores que si usan sensores NDIR de distintos tipos. 
 
 + https://github.com/jlaliaga/Medidor-de-CO2
 + https://www.instructables.com/CO2-Sensor-for-Schools/ 
