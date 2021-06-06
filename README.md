@@ -166,6 +166,7 @@ Hay proyectos de medidores que usan por ejemplo sensores electroquímicos de CO2
 + https://github.com/anaireorg/anaire-devices
 + https://fablab.ruc.dk/co2/
 + https://github.com/Alitux/solarco2
++ [Medidores Comerciales en Argentina](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar/produccion-local-medidores). 
 
 # Agradecimientos
 
