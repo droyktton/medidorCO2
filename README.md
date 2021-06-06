@@ -29,7 +29,7 @@ ___
    4. [Circuito](#circuito)
    5. [Software](#software)
    6. [Ensamblaje](#ensamblaje)
-3. [Medidores Parecidos](#proyectos-parecidos)
+3. [Medidores Parecidos](#medidores-parecidos)
 4. [Agradecimientos](#agradecimientos)
 5. [Contacto](#contacto)
 
