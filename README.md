@@ -29,7 +29,7 @@ ___
    4. [Circuito](#circuito)
    5. [Software](#software)
    6. [Ensamblaje](#ensamblaje)
-3. [Proyectos Parecidos](#proyectos-parecidos)
+3. [Medidores Parecidos](#proyectos-parecidos)
 4. [Agradecimientos](#agradecimientos)
 5. [Contacto](#contacto)
 
@@ -154,7 +154,7 @@ Nos resultó muy útil en el ensamblado que la miniboard sea, además de pequeñ
 
 ___
 
-# Proyectos Parecidos
+# Medidores Parecidos
 
 Hay proyectos de medidores que usan por ejemplo sensores electroquímicos de CO2 o similares. Son más económicos, pero son menos específicos al CO2 y en general más difíciles de calibrar que los NDIR. Por ello no son recomendados para el fin planteado. Esta es un pequeña selección de proyectos de medidores que si usan sensores NDIR de distintos tipos. 
 
