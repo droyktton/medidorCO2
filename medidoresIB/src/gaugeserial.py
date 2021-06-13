@@ -94,9 +94,9 @@ def gauge(N=5, labels=['LOW','MEDIUM','HIGH','VERY HIGH','EXTREME'], colors='inf
     """
     plots the arrow now
     """
-    
+    co2max=1600
     pos = mid_points[abs(cat - N)]
-    ang = np.pi-(co2now-400.0)*np.pi/(1200.0)
+    ang = np.pi-(co2now-400.0)*np.pi/(co2max-400.0)
     
     ax.arrow(0, 0, 0.225 * np.cos(ang), 0.225 * np.sin(ang), \
                  width=0.04, head_width=0.09, head_length=0.1, fc='k', ec='k')
