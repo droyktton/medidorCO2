@@ -144,7 +144,7 @@ Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibraci
 + Serial Plotter: El código [plotserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/src/plotserial.py) es similar al serial plotter del Arduino IDE. En este caso lee el puerto serial, y grafica las series temporales de CO2, temperatura y humedad. 
 
 
-+ Monitor Público: El código [gaugeserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/src/gaugeserial.py) se conecta via USB al medidor y provee una interface para mostrar gráficamente, en un monitor (idealmente grande) o en una pantalla de un proyector, un indicador de riesgo que esté a la vista de todos los ocupantes de una sala (comercio, aula, oficina, etc) todo el tiempo. La siguiente es una película acelerada de una medición real, ilustrando lo que muestra la version más actual del código: 
++ Monitor Público: El código [gaugeserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/src/gaugeserial.py) se conecta via USB al medidor y provee una interface para mostrar gráficamente, en un monitor (idealmente grande) o en una pantalla de un proyector, un indicador de riesgo que esté a la vista de todos los ocupantes de una sala (comercio, aula, oficina, etc) todo el tiempo. La siguiente es una película acelerada de una medición real (saturando de CO2 con un soplido al sensor y dejando luego relajar), ilustrando lo que muestra la version más actual del código: 
 
 
 ![final](medidoresIB/doc/gaugeserial.gif)
