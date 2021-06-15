@@ -94,7 +94,7 @@ def gauge(N=5, labels=['LOW','MEDIUM','HIGH','VERY HIGH','EXTREME'], colors='inf
     """
     plots the arrow now
     """
-    co2max=1600
+    co2max=1400
     pos = mid_points[abs(cat - N)]
     ang = np.pi-(co2now-400.0)*np.pi/(co2max-400.0)
     
@@ -173,6 +173,8 @@ def animate(i,fecha,elap,co2,T,H):
                 cat=3
             if(co2now>1200 and co2now<=1600):
                 cat=4
+            else:
+                cat=5
                 
             print(co2now,cat)
             titulo=str(co2now)+" ppm de CO2"
@@ -184,5 +186,5 @@ def animate(i,fecha,elap,co2,T,H):
 
 
 # Set up plot to call animate() function periodically
-ani = animation.FuncAnimation(fig, animate, fargs=(fecha,elap,co2,T,H), interval=1000)
+ani = animation.FuncAnimation(fig, animate, fargs=(fecha,elap,co2,T,H), interval=50)
 plt.show()

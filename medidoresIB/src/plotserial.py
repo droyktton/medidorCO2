@@ -4,6 +4,9 @@
 ## lee el puerto serial que escribe el medidor
 ## y dibuja co2, T, H en un gráfico
 
+# referencia
+#http://www.mikeburdis.com/wp/notes/plotting-serial-port-data-using-python-and-matplotlib/
+
 #instalar serial:
 #https://pyserial.readthedocs.io/en/latest/pyserial.html#installation
 
@@ -23,12 +26,14 @@ ser.baudrate = 9600
 ser.timeout = 10 #specify timeout when using readline()
 ser.open()
 if ser.is_open==True:
-	print("\nAll right, serial port now open. Configuration:\n")
+	print("\nTodo ok, puerto serial abierto. Configuracion:\n")
 	print(ser, "\n") #print serial parameters
 
 #figura
 fig, ax = plt.subplots(3)
-fig.tight_layout()
+plt.locator_params(axis="x", nbins=5)
+plt.locator_params(axis="y", nbins=5)
+fig.tight_layout(pad=2, w_pad=0.5, h_pad=1.0)
 fig.show()
 
 #arrays
@@ -50,9 +55,9 @@ def animate(i,fecha,elap,co2,T,H):
         lista=s.split(sep=" ")
         if lista[0]=="co2(ppm):":
             co2now=int(lista[1])
-            co2.append(lista[1])
-            T.append(lista[3])
-            H.append(lista[5])		
+            co2.append(int(lista[1].strip()))
+            T.append(int(lista[3].strip()))
+            H.append(int(lista[5].strip()))		
             elap.append(time.time()-start)
             fecha.append(str(datetime.datetime.now()))
             
@@ -65,17 +70,21 @@ def animate(i,fecha,elap,co2,T,H):
         
             # Dibuja las tres series temporales
             ax[0].clear()
-            ax[0].plot(elap, co2,"-r", label="CO2 ppm")
+            ax[0].plot(elap, co2,"-r*")
             ax[0].set(xlabel='segundos', ylabel='CO2 [ppm]')
             
             ax[1].clear()
-            ax[1].plot(elap, T,"-b", label="Temperatura")
+            ax[1].plot(elap, T,"-b*")
             ax[1].set(xlabel='segundos', ylabel='T [C]')
 
             ax[2].clear()
-            ax[2].plot(elap, H, "-m", label="CO2 ppm")
+            ax[2].plot(elap, H, "-m*")
             ax[2].set(xlabel='segundos', ylabel='Humedad Relativa [%]')
+        
+            for i in range(3):
+                ax[i].xaxis.set_major_locator(plt.MaxNLocator(5))
+                ax[i].yaxis.set_major_locator(plt.MaxNLocator(5))
 
 # Set up plot to call animate() function periodically
-ani = animation.FuncAnimation(fig, animate, fargs=(fecha,elap,co2,T,H), interval=1000)
+ani = animation.FuncAnimation(fig, animate, fargs=(fecha,elap,co2,T,H), interval=100)
 plt.show()
