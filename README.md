@@ -142,6 +142,8 @@ Como se puede ver, se usa un resistor "pull down" con el pulsador de recalibraci
 
 
 + Monitor Público: El código [gaugeserial.py](https://github.com/droyktton/medidorCO2/blob/main/medidoresIB/src/gaugeserial.py) se conecta via USB al medidor y provee una interface para mostrar gráficamente, en un monitor (idealmente grande), un indicador de riesgo que esté a la vista de todos los ocupantes de una sala todo el tiempo. La siguiente foto es una instantánea de lo que muestra la versión actual: 
+
+
 ![final](medidoresIB/doc/gaugeserial.gif)
 
 
