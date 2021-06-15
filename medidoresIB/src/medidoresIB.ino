@@ -18,6 +18,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define buttonPIN (12)
 
 //#define RECALIBRARALINICIAR
+#define SINALARMASONORA
 
 void setup()
 {
@@ -100,19 +101,21 @@ void loop()
       sprintf(msg,"OK");
     }     
     if(co2read<700){
-      sprintf(msg,"OK");
+      sprintf(msg,"R.Bajo");
     }     
     if(co2read>700 && co2read<800){
-      sprintf(msg,"Medio");
+      sprintf(msg,"R.Medio");
     }     
     if(co2read>800 && co2read<1000){
-      sprintf(msg,"Ventilar");
+      sprintf(msg,"Ventila");
     }
     if(co2read>1000){
-      sprintf(msg,"Ventilar!");
+      sprintf(msg,"Ventila!");
+      alarma();
     }
     if(co2read>1500){
-      sprintf(msg,"Ventilar!!");
+      sprintf(msg,"Ventila!!");
+      alarma();
     }
     if(co2read>2500){
       sprintf(msg,"Alerta!!!");
@@ -316,6 +319,7 @@ void recalibracion(){
 
 // alarma beep...
 void alarma(){
+#ifndef SINALARMASONORA
   for(int i=0;i<100;i++){
     digitalWrite(buzzPIN,HIGH);
     delay(buzzTime);
@@ -323,4 +327,5 @@ void alarma(){
     delay(buzzTime);    
   }  
   delay(2000);
+#endif
 }
