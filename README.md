@@ -192,7 +192,8 @@ Hay proyectos de medidores que usan por ejemplo sensores electroquímicos de CO2
 + ¡A las escuelas de Bariloche que van aceptando medir en sus aulas! 
 
 # Contacto 
-Alejandro B. Kolton. Sugerencias, correcciones y preguntas son muy bien bienvenidas.
-@droyktton en twitter o gmail.
+[Alejandro B. Kolton](https://sites.google.com/site/abkoltontalks), @droyktton en twitter o gmail. 
+Sugerencias, correcciones y preguntas son muy bien bienvenidas.
+
 
 
