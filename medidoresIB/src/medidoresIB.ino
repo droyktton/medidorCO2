@@ -17,9 +17,12 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define buzzTime (1)
 #define buttonPIN (12)
 
+// depreciado
 //#define RECALIBRARALINICIAR
-#define SINALARMASONORA
 
+// descomentar para que suena la chicharra al valor indicado
+//#define CONALARMASONORA 1000
+  
 void setup()
 {
   Serial.begin(9600);
@@ -111,16 +114,19 @@ void loop()
     }
     if(co2read>1000){
       sprintf(msg,"Ventila!");
-      alarma();
     }
     if(co2read>1500){
       sprintf(msg,"Ventila!!");
-      alarma();
     }
     if(co2read>2500){
       sprintf(msg,"Alerta!!!");
+    }
+
+    #ifdef CONALARMASONORA
+    if(co2read>CONALARMASONORA){
       alarma();
     }
+    #endif
 
     lcd.setCursor(0, 0);
     lcd.print("CO2="+String(co2read)+" "+msg+"           ");
@@ -319,13 +325,13 @@ void recalibracion(){
 
 // alarma beep...
 void alarma(){
-#ifndef SINALARMASONORA
+#ifdef CONALARMASONORA
   for(int i=0;i<100;i++){
     digitalWrite(buzzPIN,HIGH);
     delay(buzzTime);
     digitalWrite(buzzPIN,LOW);
     delay(buzzTime);    
   }  
-  delay(2000);
+  delay(500);
 #endif
 }
