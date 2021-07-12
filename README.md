@@ -6,7 +6,7 @@ Este repositorio público documenta los detalles técnicos de la construcción d
 
 Este proyecto propuesto puede ser perfectamente realizado por no especialistas, idealmente por aficionados o "makers" de cualquier nivel. No requiere conocimientos profundos de electrónica, ni de programación, ni de matemática, ni de física. Sólo se necesita una mínima familiaridad con la tecnología Arduino, un soldador y un poco de estaño para realizar cuatro soldaduras muy sencillas, y una computadora con cualquier sistema operativo con algún Arduino IDE instalado. La comunidad del software y hardware libre es tan grande y generosa que ante cualquier duda basta saber googlear perseverantemente para encontrar una respuesta en la mayoría de los casos. Lo más dificil de este proyecto es adquirir los sensores NDIR de CO2 ya que, por ahora, en Argentina, hay que importarlos. El resto de los componentes se pueden conseguir, y usualmente hay stock, en tiendas locales de Argentina. 
 
-El proyecto completo consistió en el armado de 5 medidores idénticos para medir la calidad del aire en la ciudad de San Carlos de Bariloche, en particular en institutos, laboratorios y escuelas. Las mediciones y experimentos serán recopilados en un blog. Con este sencillo proyecto nos sumamos a la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar) desde San Carlos de Bariloche.
+El proyecto completo consistió en el armado de 5 medidores idénticos para medir la calidad del aire en la ciudad de San Carlos de Bariloche, en particular en institutos, laboratorios y escuelas. Las mediciones y experimentos serán recopilados en un blog. Con este sencillo proyecto nos sumamos a la [campaña ventilar](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar) desde San Carlos de Bariloche. 
 
 <!--<img src="medidoresIB/doc/20210531_194427.jpg" alt="drawing" width="400" class="center">-->
 <img src="medidoresIB/doc/20210602_173510.jpg" alt="drawing" width="500" class="center">
@@ -30,8 +30,9 @@ ___
    5. [Software](#software)
    6. [Ensamblaje](#ensamblaje)
 3. [Medidores Parecidos](#medidores-parecidos)
-4. [Agradecimientos](#agradecimientos)
-5. [Contacto](#contacto)
+4. [Webinar](#webinar)
+5. [Agradecimientos](#agradecimientos)
+6. [Contacto](#contacto)
 
 ___
  
@@ -184,6 +185,10 @@ Esta es un pequeña selección de proyectos de medidores que **si** usan sensore
 + https://fablab.ruc.dk/co2/
 + https://github.com/Alitux/solarco2
 + [Medidores Comerciales en Argentina](https://www.argentina.gob.ar/ciencia/unidad-coronavirus/ventilar/produccion-local-medidores). 
+
+# Webinar 
+Medidores de CO2: ¿Por qué y para qué sirven? ¿Qué son y cómo funciona el sensor? ¿Cómo se arman, calibran y usan? ¿Cómo se comparan con medidores comerciales?
+Un [webinar](https://youtu.be/xZk1s44CL7w) para motivar el armado de medidores de bajo costo.
 
 # Agradecimientos
 
